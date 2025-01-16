@@ -704,5 +704,5 @@ WHERE id = 40
 --Results
 SELECT * FROM low_cost_airlines
 SELECT * FROM full_service_airlines
-SELECT * FROM airlines ORDER BY fatalities,incidents,rate_incidents, fleet_size desc
+SELECT * FROM airlines 
 
