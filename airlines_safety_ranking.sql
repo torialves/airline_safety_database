@@ -259,7 +259,7 @@ SET
 	last_incident_dt = '2017-12-02', 
 	fatalities = 0, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'EVA Air offers pilot training through its subsidiary, the EVA Flight Training Academy (EVA FTA).',
 	fleet_age = 7.5,
 	fleet_size = 92,
@@ -329,7 +329,7 @@ SET
 	last_incident_dt = '2021-09-23', 
 	fatalities = 0, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'Hawaiian Airlines has a pilot training program at its flight school in New Smyrna Beach, Florida.',
 	fleet_age = 11.5,
 	fleet_size = 71,
@@ -343,7 +343,7 @@ SET
 	last_incident_dt = '2021-05-28', 
 	fatalities = 3164, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'American Airlines offers pilot training through its American Airlines Cadet Academy.',
 	fleet_age = 11.0,
 	fleet_size = 977,
@@ -357,7 +357,7 @@ SET
 	last_incident_dt = '2016-12-26', 
 	fatalities = 411, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'SAS Scandinavian Airlines has a pilot training program. SAS partners with other organizations to provide training for its pilots.',
 	fleet_age = 8.6,
 	fleet_size = 84,
@@ -385,7 +385,7 @@ SET
 	last_incident_dt = '2008-07-31', 
 	fatalities = 600, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'Iberia offers a pilot training program called Iberia Cadetes.',
 	fleet_age = 9.6,
 	fleet_size = 135,
@@ -399,7 +399,7 @@ SET
 	last_incident_dt = '2022-02-07', 
 	fatalities = 0, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'Finnair Flight Academy offers pilot training courses for qualified pilots.',
 	fleet_age = 11.2,
 	fleet_size = 84,
@@ -413,7 +413,7 @@ SET
 	last_incident_dt = '2019-07-30', 
 	fatalities = 154, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'Lufthansa offers pilot training through the European Flight Academy (EFA).',
 	fleet_age = 9.6,
 	fleet_size = 331,
@@ -427,7 +427,7 @@ SET
 	last_incident_dt = '2015-01-20', 
 	fatalities = 0, 
 	IOSA_certification = 1, 
-	ICAO_country_audit_pass = 0, 
+	ICAO_country_audit_pass = 1, 
 	pilot_training = 'Swiss offers pilot training through the European Flight Academy (EFA). ',
 	fleet_age = 9.4,
 	fleet_size = 95,
@@ -435,8 +435,274 @@ SET
 	profitability = 1.2
 WHERE id = 21 
 
+UPDATE airlines 
+SET 
+	incidents = 33, 
+	last_incident_dt = '2012-03-31', 
+	fatalities = 775, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Japan Airlines (JAL) offers pilot training at its training center in Haneda Airport, Tokyo.',
+	fleet_age = 11.2,
+	fleet_size = 167,
+	rate_incidents = 0.002,
+	profitability = 0.98
+WHERE id = 22 
+
+UPDATE airlines
+SET 
+	incidents = 28, 
+	last_incident_dt = '2021-12-25', 
+	fatalities = 139, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Air Canada does not offer pilot training, but it does have a pilot induction training (PIT) course for new hires.',
+	fleet_age = 14.3,
+	fleet_size = 195,
+	rate_incidents = 0.003,
+	profitability = 1.06
+WHERE id = 23
+
+UPDATE airlines
+SET 
+	incidents = 82, 
+	last_incident_dt = '2022-08-06', 
+	fatalities = 351, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Delta Air Lines offers pilot training through the Propel Flight Academy.',
+	fleet_age = 14.7,
+	fleet_size = 914,
+	rate_incidents = 0.001,
+	profitability = 1.32
+WHERE id = 24
+
+UPDATE airlines
+SET 
+	incidents = 6, 
+	last_incident_dt = '2000-09-19', 
+	fatalities = 95, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Vietnam Airlines offers pilot training through its Cadet Pilot Program at the 43 Air School.',
+	fleet_age = 7.3,
+	fleet_size = 100,
+	rate_incidents = 0.002,
+	profitability = 0.2
+WHERE id = 25
+
+UPDATE airlines
+SET 
+	incidents = 99, 
+	last_incident_dt = '2021-09-27', 
+	fatalities = 2071, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'United Airlines operates its United Aviate Academy, which trains aspiring pilots and provides pathways to becoming part of the United Airlines team.',
+	fleet_age = 16.5,
+	fleet_size = 915,
+	rate_incidents = 0.001,
+	profitability = 2.0
+WHERE id = 26
+
+UPDATE airlines
+SET 
+	incidents = 0, 
+	last_incident_dt = NULL, 
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'HK Express has a pilot training program in partnership with the Hong Kong International Aviation Academy (HKIAA).',
+	fleet_age = 6.1,
+	fleet_size = 27,
+	rate_incidents = 0.0,
+	profitability = 0.03
+WHERE id = 27
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2013-08-10', 
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Jetstar Airways has a pilot training program called the Jetstar Cadet Pilot Program.',
+	fleet_age = 7.0,
+	fleet_size = 58,
+	rate_incidents = 0.0005,
+	profitability = 0.05
+WHERE id = 28
+
+UPDATE airlines
+SET 
+	incidents = 13, 
+	last_incident_dt = '2019-04-30', 
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Ryanair has a pilot training program called the Future Flyer Academy.',
+	fleet_age = 6.0,
+	fleet_size = 450,
+	rate_incidents = 0.0003,
+	profitability = 1.0
+WHERE id = 29
+
+UPDATE airlines
+SET 
+	incidents = 5, 
+	last_incident_dt = '2019-04-03', 
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'easyJet offers a pilot training program called Generation easyJet.',
+	fleet_age = 7.0,
+	fleet_size = 300,
+	rate_incidents = 0.0005,
+	profitability = 3.0
+WHERE id = 30
+
+UPDATE airlines
+SET 
+	incidents = 3, 
+	last_incident_dt = '2021-12-12', 
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Frontier Airlines offers pilot training programs, including the Frontier Airlines Pilot Cadet Program.',
+	fleet_age = 4.5,
+	fleet_size = 125,
+	rate_incidents = 0.0012,
+	profitability = 0.09
+WHERE id = 31
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2011-01-10',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'AirAsia offers a cadet pilot program. The program is designed to train aspiring pilots to become Multi-Crew Pilot License (MPL) holders and Second Officers for the airline.',
+	fleet_age = 9.2,
+	fleet_size = 210,
+	rate_incidents = 0.0021,
+	profitability = 0.19
+WHERE id = 32
+
+UPDATE airlines
+SET 
+	incidents = 2, 
+	last_incident_dt = '2019-03-23',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Wizz Air offers a pilot training program called the Wizz Air Pilot Academy (WAPA).',
+	fleet_age = 5.5,
+	fleet_size = 170,
+	rate_incidents = 0.0019,
+	profitability = 0.20
+WHERE id = 33
+
+UPDATE airlines
+SET 
+	incidents = 0, 
+	last_incident_dt = NULL,
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'VietJet Air offers pilot training through its own training programs, including cooperation with various international training organizations.',
+	fleet_age = 4.0,
+	fleet_size = 70,
+	rate_incidents = 0.0014,
+	profitability = 0.11
+WHERE id = 34
+
+UPDATE airlines
+SET 
+	incidents = 24, 
+	last_incident_dt = '2019-12-21',
+	fatalities = 2, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Southwest Airlines offers pilot training programs through the Destination 225° program.',
+	fleet_age = 13.5,
+	fleet_size = 760,
+	rate_incidents = 0.0009,
+	profitability = 2.1
+WHERE id = 35
+
+UPDATE airlines
+SET 
+	incidents = 0, 
+	last_incident_dt = NULL,
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Volaris has partnered with Airbus to manage the training programs and ensure they meet all regulatory requirements.',
+	fleet_age = 7.0,
+	fleet_size = 100,
+	rate_incidents = 0.0021,
+	profitability = 0.2
+WHERE id = 36
+
+UPDATE airlines
+SET 
+	incidents = 2, 
+	last_incident_dt = '2016-03-19',
+	fatalities = 62, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'The Dubai-based airline has a training center and a full-flight simulator facility.',
+	fleet_age = 5.3,
+	fleet_size = 65,
+	rate_incidents = 0.0007,
+	profitability = 0.04
+WHERE id = 37
+
+UPDATE airlines
+SET 
+	incidents = 2, 
+	last_incident_dt = '2012-03-29',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Norwegian Air has a training program for its pilots, which includes both in-house training and partnerships with flight schools.',
+	fleet_age = 5.0,
+	fleet_size = 160,
+	rate_incidents = 0.0001,
+	profitability = -0.17
+WHERE id = 38
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2016-05-28',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Vueling Airlines offers pilot training through its Cadet Pilot Programme and Mentored Airline Pilot Scheme (MAPS).',
+	fleet_age = 9.2,
+	fleet_size = 100,
+	rate_incidents = 0.0001,
+	profitability = 0.06
+WHERE id = 39
+
+UPDATE airlines
+SET 
+	incidents = 3, 
+	last_incident_dt = '2019-04-30',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Jet2 offers pilot training programs, including a Pilot Apprentice program and direct entry positions. ',
+	fleet_age = 15.4,
+	fleet_size = 117,
+	rate_incidents = 0.00005,
+	profitability = 0.05
+WHERE id = 40
 
 --Results
 SELECT * FROM low_cost_airlines
 SELECT * FROM full_service_airlines
-SELECT * FROM airlines
+SELECT * FROM airlines ORDER BY fatalities,incidents,rate_incidents, fleet_size desc
+
