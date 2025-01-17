@@ -697,9 +697,163 @@ SET
 	pilot_training = 'Jet2 offers pilot training programs, including a Pilot Apprentice program and direct entry positions. ',
 	fleet_age = 15.4,
 	fleet_size = 117,
-	rate_incidents = 0.00005,
+	rate_incidents = 0.0000,
 	profitability = 0.05
 WHERE id = 40
+
+UPDATE airlines
+SET 
+	incidents = 0, 
+	last_incident_dt = NULL,
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Sun Country Airlines offers pilot training programs such as the Sun Country Direct Program, the College Bridge Program, and an in-house training program.',
+	fleet_age = 17.5,
+	fleet_size = 57,
+	rate_incidents = 0.0000,
+	profitability = 0.1
+WHERE id = 41
+
+UPDATE airlines
+SET 
+	incidents = 2, 
+	last_incident_dt = '2018-01-05',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'WestJet offers pilot training through its Flightpath Pilot Program at its campus in Calgary, Alberta.',
+	fleet_age = 9.2,
+	fleet_size = 200,
+	rate_incidents = 0.00012,
+	profitability = 0.18
+WHERE id = 42
+
+UPDATE airlines
+SET 
+	incidents = 2, 
+	last_incident_dt = '2022-01-22',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'JetBlue Airways offers pilot training programs through its Gateway program.',
+	fleet_age = 12.5,
+	fleet_size = 290,
+	rate_incidents = 0.00014,
+	profitability = -0.36
+WHERE id = 43
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2006-05-05',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Air Arabia offers pilot training through its A320 Airline Pilot Training Programme and its MPL Cadet Pilot Program.',
+	fleet_age = 9.9,
+	fleet_size = 68,
+	rate_incidents = 0.0000,
+	profitability = 0.14
+WHERE id = 44
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2009-02-01',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'IndiGo Airlines offers pilot training through the IndiGo Cadet Pilot Program.',
+	fleet_age = 4.6,
+	fleet_size = 393 ,
+	rate_incidents = 0.0000,
+	profitability = 0.17
+WHERE id = 45
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '1998-02-22',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Eurowings does not offer pilot training.',
+	fleet_age = 9.0,
+	fleet_size = 100 ,
+	rate_incidents = 0.00012,
+	profitability = -0.03
+WHERE id = 46
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2007-03-29',
+	fatalities = 0, 
+	IOSA_certification = 0, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Allegiant Air has pilot training programs, including the Altitude Pilot Pathway and the Accelerate Pilot Pathway.',
+	fleet_age = 14.7,
+	fleet_size = 127 ,
+	rate_incidents = 0.00035,
+	profitability = 0.17
+WHERE id = 47
+
+UPDATE airlines
+SET 
+	incidents = 5, 
+	last_incident_dt = '2017-10-13',
+	fatalities = 104, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Cebu Pacific has a pilot training program in partnership with Airworks Aviation.',
+	fleet_age = 6.2,
+	fleet_size = 78 ,
+	rate_incidents = 0.00042,
+	profitability = 0.06
+WHERE id = 48
+
+UPDATE airlines
+SET 
+	incidents = 0, 
+	last_incident_dt = NULL,
+	fatalities = 0, 
+	IOSA_certification = 0, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'ZipAir has a pilot training program through the Pilot Career Center (PCC)',
+	fleet_age = 1.5,
+	fleet_size = 4 ,
+	rate_incidents = 0.0000,
+	profitability = -0.01
+WHERE id = 49
+
+UPDATE airlines
+SET 
+	incidents = 1, 
+	last_incident_dt = '2012-07-18',
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'Sky Airline does not offer pilot training.',
+	fleet_age = 4.0,
+	fleet_size = 14 ,
+	rate_incidents = 0.0000,
+	profitability = 1.4
+WHERE id = 50
+
+UPDATE airlines
+SET 
+	incidents = 0, 
+	last_incident_dt = NULL,
+	fatalities = 0, 
+	IOSA_certification = 1, 
+	ICAO_country_audit_pass = 1, 
+	pilot_training = 'airBaltic offers pilot training through its Pilot Academy.',
+	fleet_age = 4.3,
+	fleet_size = 50,
+	rate_incidents = 0.0000,
+	profitability = 0.03
+WHERE id = 51
 
 --Results
 SELECT * FROM low_cost_airlines
