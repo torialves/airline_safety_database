@@ -33,6 +33,8 @@ UPDATE airlines SET low_cost = 1 WHERE id in (
 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51)
 
+--Adding country column
+ALTER TABLE airlines ADD country VARCHAR(100);
 
 --Inserting data according to Forbes and AirlineRatings article
 INSERT INTO full_service_airlines VALUES 
@@ -152,7 +154,8 @@ SET
 	fleet_age = 10.4,
 	fleet_size = 112,
 	rate_incidents = 0.0,
-	profitability = 0.104
+	profitability = 0.104,
+	country = 'NZ'
 WHERE id = 1
 
 UPDATE airlines 
@@ -166,7 +169,8 @@ SET
 	fleet_age = 15.0,
 	fleet_size = 126,
 	rate_incidents = 0.05,
-	profitability = 8.5
+	profitability = 8.5,
+	country = 'AU'
 WHERE id = 2
 
 UPDATE airlines 
@@ -180,7 +184,8 @@ SET
 	fleet_age = 8.4,
 	fleet_size = 151,
 	rate_incidents = 0.004,
-	profitability = 2.2
+	profitability = 2.2,
+	country = 'CN'
 WHERE id = 3
 
 UPDATE airlines 
@@ -194,7 +199,8 @@ SET
 	fleet_age = 6,
 	fleet_size = 210,
 	rate_incidents = 0.003,
-	profitability = 1.4
+	profitability = 1.4,
+	country = 'QA'
 WHERE id = 4
 
 UPDATE airlines 
@@ -208,7 +214,8 @@ SET
 	fleet_age = 6,
 	fleet_size = 270,
 	rate_incidents = 0.002,
-	profitability = 1.1
+	profitability = 1.1,
+	country = 'AE'	
 WHERE id = 5
 
 UPDATE airlines 
@@ -222,7 +229,8 @@ SET
 	fleet_age = 7,
 	fleet_size = 37,
 	rate_incidents = 0.004,
-	profitability = -0.049
+	profitability = -0.049,
+	country = 'AU'
 WHERE id = 6
 
 UPDATE airlines 
@@ -236,7 +244,8 @@ SET
 	fleet_age = 7.5,
 	fleet_size = 103,
 	rate_incidents = 0.003,
-	profitability = -1.7
+	profitability = -1.7,
+	country = 'AE'
 WHERE id = 7
 
 UPDATE airlines 
@@ -250,7 +259,8 @@ SET
 	fleet_age = 6.2,
 	fleet_size = 251,
 	rate_incidents = 0.001,
-	profitability = 0.850
+	profitability = 0.850,
+	country = 'JP'
 WHERE id = 8
 
 UPDATE airlines 
@@ -264,7 +274,8 @@ SET
 	fleet_age = 7.5,
 	fleet_size = 92,
 	rate_incidents = 0.001,
-	profitability = 0.380
+	profitability = 0.380,
+	country = 'TW'
 WHERE id = 9
 
 UPDATE airlines 
@@ -278,7 +289,8 @@ SET
 	fleet_age = 10.3,
 	fleet_size = 159,
 	rate_incidents = 0.015,
-	profitability = 0.520
+	profitability = 0.520,
+	country = 'KR'
 WHERE id = 10
 
 UPDATE airlines 
@@ -292,7 +304,8 @@ SET
 	fleet_age = 9.5,
 	fleet_size = 330,
 	rate_incidents = 0.007,
-	profitability = 0.700
+	profitability = 0.700,
+	country = 'US'
 WHERE id = 11
 
 UPDATE airlines 
@@ -306,7 +319,8 @@ SET
 	fleet_age = 9.4,
 	fleet_size = 374,
 	rate_incidents = 0.006,
-	profitability = 1.5
+	profitability = 1.5,
+	country = 'TR'
 WHERE id = 12
 
 UPDATE airlines 
@@ -320,7 +334,8 @@ SET
 	fleet_age = 13.2,
 	fleet_size = 80,
 	rate_incidents = 0.010,
-	profitability = 0.065
+	profitability = 0.065,
+	country = 'PT'
 WHERE id = 13
 
 UPDATE airlines 
@@ -334,7 +349,8 @@ SET
 	fleet_age = 11.5,
 	fleet_size = 71,
 	rate_incidents = 0.005,
-	profitability = 0.079
+	profitability = 0.079,
+	country = 'US'
 WHERE id = 14
 
 UPDATE airlines 
@@ -348,7 +364,8 @@ SET
 	fleet_age = 11.0,
 	fleet_size = 977,
 	rate_incidents = 0.004,
-	profitability = 2.89
+	profitability = 2.89,
+	country = 'US'
 WHERE id = 15
 
 UPDATE airlines 
@@ -362,7 +379,8 @@ SET
 	fleet_age = 8.6,
 	fleet_size = 84,
 	rate_incidents = 0.010,
-	profitability = -2.7
+	profitability = -2.7,
+	country = 'SE;FI;NO'
 WHERE id = 16
 
 UPDATE airlines 
@@ -376,7 +394,8 @@ SET
 	fleet_age = 12.9,
 	fleet_size = 280,
 	rate_incidents = 0.004,
-	profitability = 1.5
+	profitability = 1.5,
+	country = 'GB'
 WHERE id = 17
 
 UPDATE airlines 
@@ -390,7 +409,8 @@ SET
 	fleet_age = 9.6,
 	fleet_size = 135,
 	rate_incidents = 0.003,
-	profitability = 0.456
+	profitability = 0.456,
+	country = 'ES'
 WHERE id = 18
 
 UPDATE airlines 
@@ -404,7 +424,8 @@ SET
 	fleet_age = 11.2,
 	fleet_size = 84,
 	rate_incidents = 0.002,
-	profitability = 0.342
+	profitability = 0.342,
+	country = 'FI'
 WHERE id = 19
 
 UPDATE airlines 
@@ -418,7 +439,8 @@ SET
 	fleet_age = 9.6,
 	fleet_size = 331,
 	rate_incidents = 0.003,
-	profitability = 0.53
+	profitability = 0.53,
+	country = 'DE'
 WHERE id = 20
 
 UPDATE airlines 
@@ -432,7 +454,8 @@ SET
 	fleet_age = 9.4,
 	fleet_size = 95,
 	rate_incidents = 0.003,
-	profitability = 1.2
+	profitability = 1.2,
+	country = 'CH'
 WHERE id = 21 
 
 UPDATE airlines 
@@ -446,7 +469,8 @@ SET
 	fleet_age = 11.2,
 	fleet_size = 167,
 	rate_incidents = 0.002,
-	profitability = 0.98
+	profitability = 0.98,
+	country = 'JP'
 WHERE id = 22 
 
 UPDATE airlines
@@ -460,7 +484,8 @@ SET
 	fleet_age = 14.3,
 	fleet_size = 195,
 	rate_incidents = 0.003,
-	profitability = 1.06
+	profitability = 1.06,
+	country = 'CA'
 WHERE id = 23
 
 UPDATE airlines
@@ -474,7 +499,8 @@ SET
 	fleet_age = 14.7,
 	fleet_size = 914,
 	rate_incidents = 0.001,
-	profitability = 1.32
+	profitability = 1.32,
+	country = 'US'
 WHERE id = 24
 
 UPDATE airlines
@@ -488,7 +514,8 @@ SET
 	fleet_age = 7.3,
 	fleet_size = 100,
 	rate_incidents = 0.002,
-	profitability = 0.2
+	profitability = 0.2,
+	country = 'VN'
 WHERE id = 25
 
 UPDATE airlines
@@ -502,7 +529,8 @@ SET
 	fleet_age = 16.5,
 	fleet_size = 915,
 	rate_incidents = 0.001,
-	profitability = 2.0
+	profitability = 2.0,
+	country = 'US'
 WHERE id = 26
 
 UPDATE airlines
@@ -516,7 +544,8 @@ SET
 	fleet_age = 6.1,
 	fleet_size = 27,
 	rate_incidents = 0.0,
-	profitability = 0.03
+	profitability = 0.03,
+	country = 'HK'
 WHERE id = 27
 
 UPDATE airlines
@@ -530,7 +559,8 @@ SET
 	fleet_age = 7.0,
 	fleet_size = 58,
 	rate_incidents = 0.0005,
-	profitability = 0.05
+	profitability = 0.05,
+	country = 'AU'
 WHERE id = 28
 
 UPDATE airlines
@@ -544,7 +574,8 @@ SET
 	fleet_age = 6.0,
 	fleet_size = 450,
 	rate_incidents = 0.0003,
-	profitability = 1.0
+	profitability = 1.0,
+	country = 'IE'
 WHERE id = 29
 
 UPDATE airlines
@@ -558,7 +589,8 @@ SET
 	fleet_age = 7.0,
 	fleet_size = 300,
 	rate_incidents = 0.0005,
-	profitability = 3.0
+	profitability = 3.0,
+	country = 'GB'
 WHERE id = 30
 
 UPDATE airlines
@@ -572,7 +604,8 @@ SET
 	fleet_age = 4.5,
 	fleet_size = 125,
 	rate_incidents = 0.0012,
-	profitability = 0.09
+	profitability = 0.09,
+	country = 'US'
 WHERE id = 31
 
 UPDATE airlines
@@ -586,7 +619,8 @@ SET
 	fleet_age = 9.2,
 	fleet_size = 210,
 	rate_incidents = 0.0021,
-	profitability = 0.19
+	profitability = 0.19,
+	country = 'MY'
 WHERE id = 32
 
 UPDATE airlines
@@ -600,7 +634,8 @@ SET
 	fleet_age = 5.5,
 	fleet_size = 170,
 	rate_incidents = 0.0019,
-	profitability = 0.20
+	profitability = 0.20,
+	country = 'HU'
 WHERE id = 33
 
 UPDATE airlines
@@ -614,7 +649,8 @@ SET
 	fleet_age = 4.0,
 	fleet_size = 70,
 	rate_incidents = 0.0014,
-	profitability = 0.11
+	profitability = 0.11,
+	country = 'VN'
 WHERE id = 34
 
 UPDATE airlines
@@ -628,7 +664,8 @@ SET
 	fleet_age = 13.5,
 	fleet_size = 760,
 	rate_incidents = 0.0009,
-	profitability = 2.1
+	profitability = 2.1,
+	country = 'US'
 WHERE id = 35
 
 UPDATE airlines
@@ -642,7 +679,8 @@ SET
 	fleet_age = 7.0,
 	fleet_size = 100,
 	rate_incidents = 0.0021,
-	profitability = 0.2
+	profitability = 0.2,
+	country = 'MX'
 WHERE id = 36
 
 UPDATE airlines
@@ -656,7 +694,8 @@ SET
 	fleet_age = 5.3,
 	fleet_size = 65,
 	rate_incidents = 0.0007,
-	profitability = 0.04
+	profitability = 0.04,
+	country = 'AE'
 WHERE id = 37
 
 UPDATE airlines
@@ -670,7 +709,8 @@ SET
 	fleet_age = 5.0,
 	fleet_size = 160,
 	rate_incidents = 0.0001,
-	profitability = -0.17
+	profitability = -0.17,
+	country = 'NO'
 WHERE id = 38
 
 UPDATE airlines
@@ -684,7 +724,8 @@ SET
 	fleet_age = 9.2,
 	fleet_size = 100,
 	rate_incidents = 0.0001,
-	profitability = 0.06
+	profitability = 0.06,
+	country = 'ES'
 WHERE id = 39
 
 UPDATE airlines
@@ -698,7 +739,8 @@ SET
 	fleet_age = 15.4,
 	fleet_size = 117,
 	rate_incidents = 0.0000,
-	profitability = 0.05
+	profitability = 0.05,
+	country = 'GB'
 WHERE id = 40
 
 UPDATE airlines
@@ -712,7 +754,8 @@ SET
 	fleet_age = 17.5,
 	fleet_size = 57,
 	rate_incidents = 0.0000,
-	profitability = 0.1
+	profitability = 0.1,
+	country = 'US'
 WHERE id = 41
 
 UPDATE airlines
@@ -726,7 +769,8 @@ SET
 	fleet_age = 9.2,
 	fleet_size = 200,
 	rate_incidents = 0.00012,
-	profitability = 0.18
+	profitability = 0.18,
+	country = 'CA'
 WHERE id = 42
 
 UPDATE airlines
@@ -740,7 +784,8 @@ SET
 	fleet_age = 12.5,
 	fleet_size = 290,
 	rate_incidents = 0.00014,
-	profitability = -0.36
+	profitability = -0.36,
+	country = 'US'
 WHERE id = 43
 
 UPDATE airlines
@@ -754,7 +799,8 @@ SET
 	fleet_age = 9.9,
 	fleet_size = 68,
 	rate_incidents = 0.0000,
-	profitability = 0.14
+	profitability = 0.14,
+	country = 'AE'
 WHERE id = 44
 
 UPDATE airlines
@@ -768,7 +814,8 @@ SET
 	fleet_age = 4.6,
 	fleet_size = 393 ,
 	rate_incidents = 0.0000,
-	profitability = 0.17
+	profitability = 0.17,
+	country = 'IN'
 WHERE id = 45
 
 UPDATE airlines
@@ -782,7 +829,8 @@ SET
 	fleet_age = 9.0,
 	fleet_size = 100 ,
 	rate_incidents = 0.00012,
-	profitability = -0.03
+	profitability = -0.03,
+	country = 'DE'
 WHERE id = 46
 
 UPDATE airlines
@@ -796,7 +844,8 @@ SET
 	fleet_age = 14.7,
 	fleet_size = 127 ,
 	rate_incidents = 0.00035,
-	profitability = 0.17
+	profitability = 0.17,
+	country = 'US'
 WHERE id = 47
 
 UPDATE airlines
@@ -810,7 +859,8 @@ SET
 	fleet_age = 6.2,
 	fleet_size = 78 ,
 	rate_incidents = 0.00042,
-	profitability = 0.06
+	profitability = 0.06, 
+	country = 'PH'
 WHERE id = 48
 
 UPDATE airlines
@@ -824,7 +874,8 @@ SET
 	fleet_age = 1.5,
 	fleet_size = 4 ,
 	rate_incidents = 0.0000,
-	profitability = -0.01
+	profitability = -0.01,
+	country = 'JP'
 WHERE id = 49
 
 UPDATE airlines
@@ -838,7 +889,8 @@ SET
 	fleet_age = 4.0,
 	fleet_size = 14 ,
 	rate_incidents = 0.0000,
-	profitability = 1.4
+	profitability = 1.4,
+	country = 'CL'
 WHERE id = 50
 
 UPDATE airlines
@@ -852,7 +904,8 @@ SET
 	fleet_age = 4.3,
 	fleet_size = 50,
 	rate_incidents = 0.0000,
-	profitability = 0.03
+	profitability = 0.03,
+	country = 'LV'
 WHERE id = 51
 
 --Results
