@@ -1,44 +1,44 @@
-﻿id;airline_name;recent_incident_flag;fatalities_per_aircraft;fleet_age;fleet_size;rate_incidents;profitability;pilot_training;safety_score;low_cost
-2;Qantas;0;0;15;126;0,05;8,5;The airline operates its own Qantas Group Pilot Academy, which provides world-class training for its pilots.;-0,2;No
-4;Qatar Airways;0;0;6;210;0,003;1,4;"Qatar Airways offers a Cadet Pilot Training Program to develop future airline pilots. ";0,32;No
-5;Emirates;0;0;6;270;0,002;1,1;Emirates offers pilot training through the Emirates Flight Training Academy (EFTA) for experienced and cadet pilots.;0,38;No
-3;Cathay Pacific;0;0;8,4;151;0,004;2,2;Cathay Pacific offers pilot training through its own Cathay Pacific Flight Training Centre (CPFTC).;0,4;No
-12;Turkish Airlines;0;0;9,4;374;0,006;1,5;Turkish Airlines has a flight academy that trains pilots for the airline: The Turkish Airlines Aviation Academy (TAAA).;0,64;No
-9;EVA Air;0;0;7,5;92;0,001;0,38;EVA Air offers pilot training through its subsidiary, the EVA Flight Training Academy (EVA FTA).;0,674;No
-25;Vietnam Airlines;0;0;7,3;100;0,002;0,2;Vietnam Airlines offers pilot training through its Cadet Pilot Program at the 43 Air School.;0,69;No
-21;Swiss;0;0;9,4;95;0,003;1,2;"Swiss offers pilot training through the European Flight Academy (EFA). ";0,7;No
-8;ANA;0;1;6,2;251;0,001;0,85;All Nippon Airways (ANA) does not offer pilot training directly, but it does partner with flight schools to train its pilots.;0,75;No
-11;Alaska Airlines;0;0;9,5;330;0,007;0,7;Alaska focuses on recruiting and training pilots with no experience.;0,81;No
-20;Lufthansa;0;0;9,6;331;0,003;0,53;Lufthansa offers pilot training through the European Flight Academy (EFA).;0,854;No
-17;British Airways;0;0;12,9;280;0,004;1,5;British Airways offers pilot training through its Speedbird Pilot Academy.;0,99;No
-19;Finnair;0;0;11,2;84;0,002;0,342;Finnair Flight Academy offers pilot training courses for qualified pilots.;1,0516;No
-14;Hawaiian Airlines;0;0;11,5;71;0,005;0,079;Hawaiian Airlines has a pilot training program at its flight school in New Smyrna Beach, Florida.;1,1342;No
-24;Delta Airlines;0;0;14,7;914;0,001;1,32;Delta Air Lines offers pilot training through the Propel Flight Academy.;1,206;No
-23;Air Canada;0;0;14,3;195;0,003;1,06;Air Canada does not offer pilot training, but it does have a pilot induction training (PIT) course for new hires.;1,218;No
-15;American Airlines;0;3;11;977;0,004;2,89;American Airlines offers pilot training through its American Airlines Cadet Academy.;1,422;No
-10;Korean Air;0;2;10,3;159;0,015;0,52;Korean Air partners with the Flight Education Center at Korea Aerospace University to train pilots.;1,526;No
-13;TAP Portugal;0;1;13,2;80;0,01;0,065;TAP Air Portugal has a pilot training center at the Cascais Municipal Aerodrome.;1,607;No
-1;Air New Zealand;0;2;10,4;112;0;0,104;Air New Zealand invests heavily in pilot training and development, contributing to its reputation as one of the safest airlines in the world.;1,6192;No
-26;United Airlines;0;2;16,5;915;0,001;2;United Airlines operates its United Aviate Academy, which trains aspiring pilots and provides pathways to becoming part of the United Airlines team.;1,85;No
-18;Iberia;0;4;9,6;135;0,003;0,456;Iberia offers a pilot training program called Iberia Cadetes.;2,0688;No
-22;JAL;0;4;11,2;167;0,002;0,98;Japan Airlines (JAL) offers pilot training at its training center in Haneda Airport, Tokyo.;2,124;No
-30;easyJet;0;0;7;300;0,0005;3;easyJet offers a pilot training program called Generation easyJet.;0,1;Yes
-50;SKY Airline;0;0;4;14;0;1,4;Sky Airline does not offer pilot training.;0,12;Yes
-34;VietJet Air;0;0;4;70;0,0014;0,11;VietJet Air offers pilot training through its own training programs, including cooperation with various international training organizations.;0,378;Yes
-29;Ryanair;0;0;6;450;0,0003;1;Ryanair has a pilot training program called the Future Flyer Academy.;0,4;Yes
-51;Air Baltic;0;0;4,3;50;0;0,03;airBaltic offers pilot training through its Pilot Academy.;0,424;Yes
-45;IndiGo;0;0;4,6;393;0;0,17;IndiGo Airlines offers pilot training through the IndiGo Cadet Pilot Program.;0,426;Yes
-31;Frontier Airlines;0;0;4,5;125;0,0012;0,09;Frontier Airlines offers pilot training programs, including the Frontier Airlines Pilot Cadet Program.;0,432;Yes
-33;Wizz Air;0;0;5,5;170;0,0019;0,2;Wizz Air offers a pilot training program called the Wizz Air Pilot Academy (WAPA).;0,51;Yes
-37;flydubai;0;0;5,3;65;0,0007;0,04;The Dubai-based airline has a training center and a full-flight simulator facility.;0,522;Yes
-27;Hong Kong Express;0;0;6,1;27;0;0,03;HK Express has a pilot training program in partnership with the Hong Kong International Aviation Academy (HKIAA).;0,604;Yes
-36;Volaris;0;0;7;100;0,0021;0,2;Volaris has partnered with Airbus to manage the training programs and ensure they meet all regulatory requirements.;0,66;Yes
-28;Jetstar Group;0;0;7;58;0,0005;0,05;Jetstar Airways has a pilot training program called the Jetstar Cadet Pilot Program.;0,69;Yes
-32;AirAsia;0;0;9,2;210;0,0021;0,19;AirAsia offers a cadet pilot program. The program is designed to train aspiring pilots to become Multi-Crew Pilot License (MPL) holders and Second Officers for the airline.;0,882;Yes
-42;WestJet;0;0;9,2;200;0,00012;0,18;WestJet offers pilot training through its Flightpath Pilot Program at its campus in Calgary, Alberta.;0,884;Yes
-39;Vueling;0;0;9,2;100;0,0001;0,06;Vueling Airlines offers pilot training through its Cadet Pilot Programme and Mentored Airline Pilot Scheme (MAPS).;0,908;Yes
-48;Cebu Pacific;0;1;6,2;78;0,00042;0,06;Cebu Pacific has a pilot training program in partnership with Airworks Aviation.;0,908;Yes
-35;Southwest Airlines;0;0;13,5;760;0,0009;2,1;Southwest Airlines offers pilot training programs through the Destination 225° program.;0,93;Yes
-44;Air Arabia;0;0;9,9;68;0;0,14;Air Arabia offers pilot training through its A320 Airline Pilot Training Programme and its MPL Cadet Pilot Program.;0,962;Yes
-40;Jet2;0;0;15,4;117;0;0,05;"Jet2 offers pilot training programs, including a Pilot Apprentice program and direct entry positions. ";1,53;Yes
-41;Sun Country Airlines;0;0;17,5;57;0;0,1;Sun Country Airlines offers pilot training programs such as the Sun Country Direct Program, the College Bridge Program, and an in-house training program.;1,73;Yes
+﻿row_id;id;airline_name;recent_incident_flag;fatalities_per_aircraft;fleet_age;fleet_size;rate_incidents;profitability;safety_score;pilot_training;low_cost
+1;2;Qantas;0;0;15;126;0,05;8,5;-0,2;The airline operates its own Qantas Group Pilot Academy, which provides world-class training for its pilots.;No
+2;4;Qatar Airways;0;0;6;210;0,003;1,4;0,32;"Qatar Airways offers a Cadet Pilot Training Program to develop future airline pilots. ";No
+3;5;Emirates;0;0;6;270;0,002;1,1;0,38;Emirates offers pilot training through the Emirates Flight Training Academy (EFTA) for experienced and cadet pilots.;No
+4;3;Cathay Pacific;0;0;8,4;151;0,004;2,2;0,4;Cathay Pacific offers pilot training through its own Cathay Pacific Flight Training Centre (CPFTC).;No
+5;12;Turkish Airlines;0;0;9,4;374;0,006;1,5;0,64;Turkish Airlines has a flight academy that trains pilots for the airline: The Turkish Airlines Aviation Academy (TAAA).;No
+6;9;EVA Air;0;0;7,5;92;0,001;0,38;0,674;EVA Air offers pilot training through its subsidiary, the EVA Flight Training Academy (EVA FTA).;No
+7;25;Vietnam Airlines;0;0;7,3;100;0,002;0,2;0,69;Vietnam Airlines offers pilot training through its Cadet Pilot Program at the 43 Air School.;No
+8;21;Swiss;0;0;9,4;95;0,003;1,2;0,7;"Swiss offers pilot training through the European Flight Academy (EFA). ";No
+9;8;ANA;0;1;6,2;251;0,001;0,85;0,75;All Nippon Airways (ANA) does not offer pilot training directly, but it does partner with flight schools to train its pilots.;No
+10;11;Alaska Airlines;0;0;9,5;330;0,007;0,7;0,81;Alaska focuses on recruiting and training pilots with no experience.;No
+11;20;Lufthansa;0;0;9,6;331;0,003;0,53;0,854;Lufthansa offers pilot training through the European Flight Academy (EFA).;No
+12;17;British Airways;0;0;12,9;280;0,004;1,5;0,99;British Airways offers pilot training through its Speedbird Pilot Academy.;No
+13;19;Finnair;0;0;11,2;84;0,002;0,342;1,0516;Finnair Flight Academy offers pilot training courses for qualified pilots.;No
+14;14;Hawaiian Airlines;0;0;11,5;71;0,005;0,079;1,1342;Hawaiian Airlines has a pilot training program at its flight school in New Smyrna Beach, Florida.;No
+15;24;Delta Airlines;0;0;14,7;914;0,001;1,32;1,206;Delta Air Lines offers pilot training through the Propel Flight Academy.;No
+16;23;Air Canada;0;0;14,3;195;0,003;1,06;1,218;Air Canada does not offer pilot training, but it does have a pilot induction training (PIT) course for new hires.;No
+17;15;American Airlines;0;3;11;977;0,004;2,89;1,422;American Airlines offers pilot training through its American Airlines Cadet Academy.;No
+18;10;Korean Air;0;2;10,3;159;0,015;0,52;1,526;Korean Air partners with the Flight Education Center at Korea Aerospace University to train pilots.;No
+19;13;TAP Portugal;0;1;13,2;80;0,01;0,065;1,607;TAP Air Portugal has a pilot training center at the Cascais Municipal Aerodrome.;No
+20;1;Air New Zealand;0;2;10,4;112;0;0,104;1,6192;Air New Zealand invests heavily in pilot training and development, contributing to its reputation as one of the safest airlines in the world.;No
+21;26;United Airlines;0;2;16,5;915;0,001;2;1,85;United Airlines operates its United Aviate Academy, which trains aspiring pilots and provides pathways to becoming part of the United Airlines team.;No
+22;18;Iberia;0;4;9,6;135;0,003;0,456;2,0688;Iberia offers a pilot training program called Iberia Cadetes.;No
+23;22;JAL;0;4;11,2;167;0,002;0,98;2,124;Japan Airlines (JAL) offers pilot training at its training center in Haneda Airport, Tokyo.;No
+24;30;easyJet;0;0;7;300;0,0005;3;0,1;easyJet offers a pilot training program called Generation easyJet.;Yes
+25;50;SKY Airline;0;0;4;14;0;1,4;0,12;Sky Airline does not offer pilot training.;Yes
+26;34;VietJet Air;0;0;4;70;0,0014;0,11;0,378;VietJet Air offers pilot training through its own training programs, including cooperation with various international training organizations.;Yes
+27;29;Ryanair;0;0;6;450;0,0003;1;0,4;Ryanair has a pilot training program called the Future Flyer Academy.;Yes
+28;51;Air Baltic;0;0;4,3;50;0;0,03;0,424;airBaltic offers pilot training through its Pilot Academy.;Yes
+29;45;IndiGo;0;0;4,6;393;0;0,17;0,426;IndiGo Airlines offers pilot training through the IndiGo Cadet Pilot Program.;Yes
+30;31;Frontier Airlines;0;0;4,5;125;0,0012;0,09;0,432;Frontier Airlines offers pilot training programs, including the Frontier Airlines Pilot Cadet Program.;Yes
+31;33;Wizz Air;0;0;5,5;170;0,0019;0,2;0,51;Wizz Air offers a pilot training program called the Wizz Air Pilot Academy (WAPA).;Yes
+32;37;flydubai;0;0;5,3;65;0,0007;0,04;0,522;The Dubai-based airline has a training center and a full-flight simulator facility.;Yes
+33;27;Hong Kong Express;0;0;6,1;27;0;0,03;0,604;HK Express has a pilot training program in partnership with the Hong Kong International Aviation Academy (HKIAA).;Yes
+34;36;Volaris;0;0;7;100;0,0021;0,2;0,66;Volaris has partnered with Airbus to manage the training programs and ensure they meet all regulatory requirements.;Yes
+35;28;Jetstar Group;0;0;7;58;0,0005;0,05;0,69;Jetstar Airways has a pilot training program called the Jetstar Cadet Pilot Program.;Yes
+36;32;AirAsia;0;0;9,2;210;0,0021;0,19;0,882;AirAsia offers a cadet pilot program. The program is designed to train aspiring pilots to become Multi-Crew Pilot License (MPL) holders and Second Officers for the airline.;Yes
+37;42;WestJet;0;0;9,2;200;0,00012;0,18;0,884;WestJet offers pilot training through its Flightpath Pilot Program at its campus in Calgary, Alberta.;Yes
+38;39;Vueling;0;0;9,2;100;0,0001;0,06;0,908;Vueling Airlines offers pilot training through its Cadet Pilot Programme and Mentored Airline Pilot Scheme (MAPS).;Yes
+39;48;Cebu Pacific;0;1;6,2;78;0,00042;0,06;0,908;Cebu Pacific has a pilot training program in partnership with Airworks Aviation.;Yes
+40;35;Southwest Airlines;0;0;13,5;760;0,0009;2,1;0,93;Southwest Airlines offers pilot training programs through the Destination 225° program.;Yes
+41;44;Air Arabia;0;0;9,9;68;0;0,14;0,962;Air Arabia offers pilot training through its A320 Airline Pilot Training Programme and its MPL Cadet Pilot Program.;Yes
+42;40;Jet2;0;0;15,4;117;0;0,05;1,53;"Jet2 offers pilot training programs, including a Pilot Apprentice program and direct entry positions. ";Yes
+43;41;Sun Country Airlines;0;0;17,5;57;0;0,1;1,73;Sun Country Airlines offers pilot training programs such as the Sun Country Direct Program, the College Bridge Program, and an in-house training program.;Yes
